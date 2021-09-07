@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace PostgreSQL_Tutorial
+namespace ProductsApi
 {
     public class Program
     {

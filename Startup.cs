@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace PostgreSQL_Tutorial
+namespace ProductsApi
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace PostgreSQL_Tutorial
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PostgreSQL_Tutorial", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProductsApi", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace PostgreSQL_Tutorial
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PostgreSQL_Tutorial v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProductsApi v1"));
             }
 
             app.UseHttpsRedirection();

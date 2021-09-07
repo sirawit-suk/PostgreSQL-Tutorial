@@ -1,6 +1,6 @@
 using System;
 
-namespace PostgreSQL_Tutorial
+namespace ProductsApi
 {
     public class WeatherForecast
     {

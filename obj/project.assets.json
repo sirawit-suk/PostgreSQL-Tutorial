@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PostgreSQL-Tutorial\\PostgreSQL-Tutorial.csproj",
-      "projectName": "PostgreSQL-Tutorial",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\PostgreSQL-Tutorial\\PostgreSQL-Tutorial.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\ProductsApi\\ProductsApi.csproj",
+      "projectName": "ProductsApi",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\ProductsApi\\ProductsApi.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\PostgreSQL-Tutorial\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\ProductsApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

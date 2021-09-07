@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C8DBQVfD7Gwuq15DidBYVm35LPsFkANDQfBFe6tvHoMfuz/sWKbmo4r3DycEK/E6NkmgNDeHy+50r0bnRTEnhg==",
+  "dgSpecHash": "VCjZ4mA8uyTOvEDV5d56hO+AH0Aj3I8N51pNA2cN3VGVdZzHEbvAYQE/1nKiXeB/z8YNMRSTzBIeEuQEWg/9EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\PostgreSQL-Tutorial\\PostgreSQL-Tutorial.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\ProductsApi\\ProductsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

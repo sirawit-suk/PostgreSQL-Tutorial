@@ -2,4 +2,4 @@
 
 ## Documentation
 - [Npgsql Entity Framework Core Provider](https://www.npgsql.org/efcore/)
-- [Using PostgreSQL with .NET Core 2.0](https://www.youtube.com/watch?v=md20lQut9EE&ab_channel=WesDoyle)
+- [Net 5 Web API CRUD using Entity Framework and PostgreSQL](https://www.youtube.com/watch?v=gUKWkBGrwwQ&ab_channel=alexcodetuts)

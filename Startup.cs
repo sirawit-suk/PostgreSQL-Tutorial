@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using ProductsApi.Data;
+using ProductsApi.Repositories;
 
 namespace ProductsApi
 {
@@ -31,6 +32,7 @@ namespace ProductsApi
 
             services.AddDbContext<DataContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyFirstConnection")));
             services.AddScoped<IDataContext>(provider => provider.GetService<DataContext>()); // dependency injection
+            services.AddScoped<IProductRepository, ProductRepository>(); //why?
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

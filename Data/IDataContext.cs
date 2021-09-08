@@ -8,6 +8,6 @@ namespace ProductsApi.Data
     public interface IDataContext
     {
          DbSet<Product> Products {get; set;}
-         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default); // Must have because use in Repository -> Controller
     }
 }

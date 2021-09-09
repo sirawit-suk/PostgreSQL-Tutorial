@@ -62,14 +62,30 @@ namespace ProductsApi.Controllers
                 Price = updateProductDTO.Price
             };
 
-            await _productRepository.Update(product);
+            try 
+            {
+                await _productRepository.Update(product);
+            }
+            catch //Throw Exception Notfound 404
+            { 
+                return NotFound();
+            }
+
             return NoContent();;
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteProduct(int id)
         {
-            await _productRepository.Delete(id);
+            try
+            {
+                await _productRepository.Delete(id);
+            }
+            catch //Throw Exception Notfound 404
+            {
+                return NotFound();
+            }
+            
             return NoContent();
         }
 
